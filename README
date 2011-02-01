@@ -1,0 +1,12 @@
+To use the gVoiceMigrator scvript:
+
+1. Export your google My Contacts list as a CSV
+2. Filter out anyone without a mobile number
+3. *Optional:* Cross reference your google contacts with a list of your Facebook friends: Copy the full text of each page of friends, and pasting it consecutively into a text file. (All the extra noise doesn't matter, as long as you get the names.) Replace new lines with a space. Paste it into any cell and use your spreadsheet program's search / lookup function to check if each name can be found in your list of Facebook friends' names. Delete anyone that isn't. 
+4. Delete anyone you don't want to send your new number to.
+5. Delete all columns except first name and phone number
+6. Save as ./numbers.csv
+7. Run send_smss.py
+8. Enter your google voice email and password
+9. Let it run, texts are being delivered. 
+
